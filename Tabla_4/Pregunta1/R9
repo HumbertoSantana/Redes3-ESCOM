@@ -1,0 +1,13 @@
+
+Cisco 3745 (R7000) processor (revision 2.0) with 249856K/12288K bytes of memory.
+Processor board ID FTX0945W0MY
+R7000 CPU at 350MHz, Implementation 39, Rev 2.1, 256KB L2, 512KB L3 Cache
+6 FastEthernet interfaces
+4 Serial(sync/async) interfaces
+DRAM configuration is 64 bits wide with parity enabled.
+151K bytes of NVRAM.
+
+Configuration register is 0x2102
+
+R9#
+R9#exit
