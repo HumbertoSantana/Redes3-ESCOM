@@ -1,0 +1,6 @@
+hostname R4
+interface FastEthernet0/0 ip address 10.7.200.2 255.255.255.0
+interface Serial0/0 ip address 10.8.200.1 255.255.255.0
+router ospf 4
+network 10.7.200.0 0.0.0.255 area 0
+network 10.8.200.0 0.0.0.255 area 0

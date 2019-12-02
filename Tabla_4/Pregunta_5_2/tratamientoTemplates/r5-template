@@ -1,0 +1,7 @@
+hostname R5
+router ospf 5
+network ip_add netmask area
+logging trap debugging
+logging 10.1.200.3
+username humberto privilege 15 password 0 123456
+interface name ip address ip netmask
