@@ -39,7 +39,7 @@ def obtenerNivel(syslog):
 def enviarCorreo(nivel, contenido):
     mensaje = nivel + contenido
     asunto = " ¡ SYSLOG DETECTADO ! "
-    comando = "echo \"" + mensaje + "\" | mail -s \"" + asunto + "\" hsantana.2611@gmail.com"
+    comando = "echo \"" + mensaje + "\" | mail -s \"" + asunto + "\" @gmail.com"
     os.system(comando)
     print(" ¡ Notificación de correo enviada !")
 """ ..................................................................................... """
