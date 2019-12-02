@@ -1,0 +1,11 @@
+hostname ${R2}
+router ospf ${2}
+network ${10.3.200.0} ${0.0.0.255} area ${0}
+network ${10.4.200.0} ${0.0.0.255} area ${0}
+network ${10.5.200.0} ${0.0.0.255} area ${0}
+logging trap ${debugging}
+logging ${10.1.200.3}
+username ${humberto} privilege ${15} password 0 ${123456}
+interface ${FastEthernet0/0} $ip address ${10.4.200.1} ${255.255.255.0}
+interface ${Serial0/0} $ip address ${10.3.200.1} ${255.255.255.0}
+interface ${Serial0/1} $ip address ${10.5.200.1} ${255.255.255.0}
